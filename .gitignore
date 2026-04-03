@@ -18,3 +18,5 @@ model_ratings.json
 __pycache__/
 *.pyc
 uv.lock
+/gtp_logs
+/engines/KataGoData
