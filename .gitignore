@@ -8,3 +8,15 @@ wheels/
 
 # Virtual environments
 .venv
+
+# KataGo 二进制和大文件
+engines/katago.exe
+engines/*.bin.gz
+engines/models/*.bin.gz
+
+# 运行时生成的文件
+*.sgf
+model_ratings.json
+__pycache__/
+*.pyc
+uv.lock
